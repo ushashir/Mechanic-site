@@ -1,0 +1,37 @@
+…or create a new repository on the command line
+echo "# fsrfsdsfgsgf" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/ushashir/fsrfsdsfgsgf.git
+git push -u origin master
+
+or
+
+git remote add origin https://github.com/ushashir/fsrfsdsfgsgf.git
+git push -u origin master
+
+
+
+
+
+continue from css for cta-button default/treatment 11/01/2020
+
+Arrow still pending to be done
+
+entire #cta commented for now
+
+Video bottom yet to be created
+
+adjust card positions under boostrap-components-cards
+
+Work on stat div
+
+Our impact skipped
+
+Find out why about namechanic dey top
+
+our promises to you css. top
+
+@media hero image / link menus/s / sticky nav
+
