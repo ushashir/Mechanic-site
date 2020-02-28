@@ -1,210 +1,92 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
 
 html, body {
+  background-image: url(../img/body-bg.png);
   height: 100%;
   width: 100%;
+  /* font-size: small; */
   font-family: 'Poppins', sans-serif;
   color: #222222;
+  padding: 0px, 25px, 0px 25px;
 }
-/* h1, h2,h3,h4,h5 {
-    color: #4b4b4b;
-} */
+
     
-.hero {
+#mainhero {
     background-image: url(../img/bg.png);
-     position: absolute;
-     height: 800px;
-     width: 100%;
+    background-repeat: no-repeat;
+  
+    height: 800px;
+    width: 100%;
     } 
-#top-nav {
-        position: relative;
-        width: 1020px;
-        height: 1440px;
-        left: 173px;
-        top: 26px;
-    }
-#logo-placeholder {
-    position: absolute;
-    left: 0%;
-    right: 82.94%;
-    top: 0%;
-    bottom: 67.97%;
-}
-#utiliy {
-        position: absolute;
-        left: 40.2%;
-        right: 0%;
-        top: 0%;
-        bottom: 68.75%;
-    }
 
-#cta {
-    position: absolute;
-    /* background-color: #d32727;
-    color: #FFFFFF; */
-    left: 79.31%;
-    right: 0%;
-    top: 0%;
-    bottom: 96.75%;
-    text-size-adjust: 10px;
-}
-#cta text {
-    padding-top: 10px;
-}
-
-#phone {
-    position: absolute;
-    left: 56.33%;
-    right: 23.82%;
-    top: 0%;
-    bottom: 68.75%;
-}
-#phone-icon {
-    position: absolute;
-    left: 63.33%;
-    right: 34.31%;
-    top: 0%;
-    bottom: 81.25%;
-}
-#phone-text {
+.topnav-text {
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
-    font-size: 12px;
-    line-height: 22px;
+    font-size: small;
     display: flex;
     align-items: center;
     letter-spacing: 0.15px;
     color: #FFFFFF;  
 }
 
-#hours {
-    position: absolute;
-    left: 32.2%;
-    right: 39.61%;
-    top: 0%;
-    bottom: 68.75%;
-}
-#hours-text {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 12px;
-    line-height: 22px;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.15px;
-    color: #FFFFFF; 
-}
-#access {
-    position: absolute;
-    left: 40.2%;
-    right: 57.45%;
-    top: 0%;
-    bottom: 81.25%;   
-}
-#access-icon {
-    position: absolute;
-    left: 8.33%;
-    right: 8.33%;
-    top: 8.33%;;
-    bottom: 8.33%;  
-}
-
-#nav-div {
-    position: absolute;
-    left: 0%;
-    right: 0%;
-    top: 4.20%;;
-    bottom: 0%;
-} 
-
-.bg-white {
-    color: #FFFFFF;
-}
 #hero-text  {
-    position: absolute;
-    width: 583px;
+    position: relative;
     height: 112px;
-    left: 173px;
-    top: 280px;
+    left: 15%;
+    top: 60px;
 
     font-family: Roboto;
     font-style: normal;
     font-weight: 900;
-    font-size: 56px;
+    font-size: 100px;
     line-height: 56px;
     
     color: #FFFFFF ;
 } 
-#after-header-body {
-    position: relative;
-    top: 840px;
-}
 
 
-#our-promises-to-you {
-    position: relative;
-    width: 100%;
-    top: 100px;
-}
 #ad-video {
     position: relative;
     background-image: url(../img/VSI.png);
     width: 100%;
-    height: 500px;
-    top: 8px;  
+    height: 500px;      
 }
-#ad-video-Tdiv {
-    position: relative;
-    width: 350px;
-    height: 129px;
-    left: 650px;
-    top: 120px;
-} 
-#ad-video-T {
+#ad-video-text {
     position: relative;
     left: 0%;
     right: 0%;
-    top: 0%;
+    top: 25px;
     bottom: 2.33%;
 
     font-family: Roboto;
     font-style: normal;
     font-weight: 900;
-    font-size: 56px;
+    font-size: 456px;
     line-height: 42px;
     
     color: #FFFFFF;
 } 
-#services {
-    position: relative;
-    top: 112px;
-} 
-.card {
+
+.cd {
     transition: all 1s;
 }
-.card:hover {
-	transform: scale(1.1);
+.cd:hover {
+    transform: scale(1.1);
+    box-shadow: black;
 }
-#contact {
-    position: relative;
-    width: 100%;
-    top: 267px;
+#reviews {
+    font-size: small;
 }
 #appointment-hero {
     position: relative;
     background-image: url(../img/bgAppointment.png);
     width: 100%;
     height: 800px;
-    top: -169px;
 }
 #form-holder {
     position: relative;
     background-color: #FFFFFF;
-    width: 500px;
-    height: 400px;
-    left: 73px;
     top: 43px;
     padding: 4%;
 }
@@ -212,13 +94,39 @@ html, body {
     position: relative;
     color: #FFFFFF;
     width: 324px;
-    height: 235px;
-    left: 605px;
-    top: -329px;
+    height: 235px; 
+    top: 100px;  
 }
-#workers-customers {
+#counting {
+    color: red;
+    font-size: 500%;
+    font-weight: bold;
+}
+
+#our-impact-hero {
     position: relative;
-    top: 114px;
+    background-image: url(../img/bgAppointment.png);
+    width: 100%;
+    height: 608px;
+}
+#impact-heading {
+    position: relative;
+    color: #FFFFFF;
+    left: 100px;
+    top: 100px;
+}
+#impact-data {
+    position: relative;
+    width: 100%;
+    top: 200px;
+    color: #FFFFFF;
+    left: 3%;
+    font-size: small;
+}
+.impact-ratings {
+    color: red;
+    font-size: 150%;
+    font-weight: bold;
 }
 footer {
     position: relative;
@@ -226,16 +134,15 @@ footer {
     background-color: #e6e6ff; 
     top: 114px;
     padding-top: 2rem; 
+    font-size: small;
 }
 #copyright {
     position: relative;
     height: 35px;
     width: 100%;
     color: #FFFFFF;
-    background-color: #4b4b4b;
+    background-color: rgb(26, 26, 104);
 }
-
-
 
 .padding {
   padding-bottom: 2rem;
@@ -243,29 +150,24 @@ footer {
 
 .social a {
   font-size: 1.5em;
-  padding: 1 em;
+  padding: 0.5em;
 }
-.fa-facebook {
-  color: #3b5998;
-}
-.fa-twitter {
-  color: #00aced;
-}
-.fa-google-plus-g {
-  color: #dd4b39;
-}
-.fa-instagram {
-  color: #517fa8;
-}
+.fa-facebook,
+.fa-twitter, 
+.fa-instagram,
 .fa-youtube {
   color: #bb0000;
 }
+
 .fa-facebook:hover,
 .fa-twitter:hover,
-.fa-google-plus-g:hover,
 .fa-instagram:hover,
 .fa-youtube:hover {
   color: #d5d5d5
+}
+
+.lh:hover {
+  color: red
 }
 
 
@@ -285,19 +187,16 @@ footer {
 @media (max-width: 992px) {
   .social a {
     font-size: 1.5rem;
-    padding: 1.5rem;
   }
 
   }
 @media (max-width: 768px) {
   
-
   }
   
   
 
 @media (max-width: 576px) {
-
  
 }
 
